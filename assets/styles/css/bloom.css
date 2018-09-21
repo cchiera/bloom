@@ -1,0 +1,79 @@
+div.container-fluid {
+  /* -top logo- */
+  font-family: sans-serif;
+  /* -top hero- */
+  /* -nav- */
+  /* -below nav- */
+  /* -- */
+  /* -- */
+  /* -- */
+  /* -- */
+  /* -- */
+  /* -- */ }
+  div.container-fluid div.row div > img.svg-logo {
+    width: 174px; }
+  div.container-fluid div.row div.logo-top h1 {
+    font-size: 6em;
+    font-family: serif;
+    padding: 0px;
+    margin: 0px; }
+  div.container-fluid div.row div.logo-top h1 > span {
+    font-size: 75px; }
+  div.container-fluid div.row div.logo-top h2 {
+    font-size: 1em;
+    padding: 0px;
+    margin: 0px; }
+  div.container-fluid div.row div.hero-image {
+    background: url(../../../assets/images/hero1.jpg) repeat center black;
+    min-height: 500px;
+    padding: 0px;
+    margin: 0px; }
+    div.container-fluid div.row div.hero-image h1 {
+      padding: 0px;
+      margin: 0px;
+      color: #FFF;
+      text-align: center;
+      font-size: 3em;
+      padding: 180px 0;
+      font-weight: bold; }
+  div.container-fluid div.row .navbar {
+    background: url(../../../assets/images/repeating-pattern-blue.jpg) repeat;
+    margin: 0px;
+    border: none; }
+    div.container-fluid div.row .navbar div.collapse .nav.navbar-nav {
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%); }
+      div.container-fluid div.row .navbar div.collapse .nav.navbar-nav li {
+        display: inline-block; }
+        div.container-fluid div.row .navbar div.collapse .nav.navbar-nav li a {
+          color: #FFF;
+          font-size: 1.3em; }
+  div.container-fluid section.pattern-light-blue {
+    background: url(../../../assets/images/repeating-pattern-light-blue.jpg) repeat;
+    margin: 0 -15px; }
+    div.container-fluid section.pattern-light-blue div.row div.col-md-9 p {
+      padding: 20px;
+      font-size: 1.2em;
+      color: #114C73; }
+  div.container-fluid .pattern-light-blue {
+    background: black; }
+  div.container-fluid div.row div.hero-image2 {
+    padding-top: 140px;
+    text-align: center;
+    background: url(../../../assets/images/hero2.jpg) no-repeat center;
+    min-height: 500px; }
+    div.container-fluid div.row div.hero-image2 div.hero-text h1 {
+      color: #F497B0;
+      font-family: serif;
+      font-size: 6vh; }
+    div.container-fluid div.row div.hero-image2 div.hero-text h2 {
+      margin: 0px;
+      color: #FFF;
+      font-size: 2.5em; }
+  div.container-fluid div.row {
+    /* -- */
+    /* -- */
+    /* -- */ }
+    div.container-fluid div.row div.row div.col-md-8 div.row div.row div.col-md-2 {
+      font-size: 99em; }
