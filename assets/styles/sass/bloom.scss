@@ -10,6 +10,7 @@ div.container-fluid {
             width: 174px
         }
         div.logo-top {
+          padding-bottom: 20px;
             h1 {
                 font-size: 6em;
                 font-family: serif;
@@ -63,7 +64,7 @@ div.container-fluid {
 
                     li {
                         display: inline-block;
-                        a{color: #FFF;font-size: 1.3em;}
+                        a{color: #FFF;font-size: 2vh;}
                     }
                 }
             }
@@ -85,15 +86,18 @@ div.container-fluid {
     }
 
     /* -- */
+    section.container.quantum-healing{
     div.row {
         div.col-md-6 {
             p {}
+                background: black;
+
         }
         div.col-md-6 {
             p {}
         }
     }
-
+}
     .pattern-light-blue {
         background: black
     }
@@ -108,7 +112,7 @@ div.container-fluid {
                 h1 {
                     color: $brand-pink-color;
                     font-family: serif;
-                    font-size: 6vh;
+                    font-size: 9vh;
                 }
                 h2 {
                     margin: 0px;

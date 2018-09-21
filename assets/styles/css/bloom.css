@@ -12,17 +12,19 @@ div.container-fluid {
   /* -- */ }
   div.container-fluid div.row div > img.svg-logo {
     width: 174px; }
-  div.container-fluid div.row div.logo-top h1 {
-    font-size: 6em;
-    font-family: serif;
-    padding: 0px;
-    margin: 0px; }
-  div.container-fluid div.row div.logo-top h1 > span {
-    font-size: 75px; }
-  div.container-fluid div.row div.logo-top h2 {
-    font-size: 1em;
-    padding: 0px;
-    margin: 0px; }
+  div.container-fluid div.row div.logo-top {
+    padding-bottom: 20px; }
+    div.container-fluid div.row div.logo-top h1 {
+      font-size: 6em;
+      font-family: serif;
+      padding: 0px;
+      margin: 0px; }
+    div.container-fluid div.row div.logo-top h1 > span {
+      font-size: 75px; }
+    div.container-fluid div.row div.logo-top h2 {
+      font-size: 1em;
+      padding: 0px;
+      margin: 0px; }
   div.container-fluid div.row div.hero-image {
     background: url(../../../assets/images/hero1.jpg) repeat center black;
     min-height: 500px;
@@ -48,7 +50,7 @@ div.container-fluid {
         display: inline-block; }
         div.container-fluid div.row .navbar div.collapse .nav.navbar-nav li a {
           color: #FFF;
-          font-size: 1.3em; }
+          font-size: 2vh; }
   div.container-fluid section.pattern-light-blue {
     background: url(../../../assets/images/repeating-pattern-light-blue.jpg) repeat;
     margin: 0 -15px; }
@@ -56,6 +58,8 @@ div.container-fluid {
       padding: 20px;
       font-size: 1.2em;
       color: #114C73; }
+  div.container-fluid section.container.quantum-healing div.row div.col-md-6 {
+    background: black; }
   div.container-fluid .pattern-light-blue {
     background: black; }
   div.container-fluid div.row div.hero-image2 {
@@ -66,7 +70,7 @@ div.container-fluid {
     div.container-fluid div.row div.hero-image2 div.hero-text h1 {
       color: #F497B0;
       font-family: serif;
-      font-size: 6vh; }
+      font-size: 9vh; }
     div.container-fluid div.row div.hero-image2 div.hero-text h2 {
       margin: 0px;
       color: #FFF;
