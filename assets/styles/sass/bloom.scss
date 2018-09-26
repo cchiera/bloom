@@ -194,6 +194,8 @@ div.container-fluid {
         background: url(../../../assets/images/bg-girl.jpg) #114C73 center repeat;
         min-height: 620px;
         div.col-md-9 {
+
+            /* create mixin below */
             h3 {
                 color: $brand-pink-color;
                 padding: 30px 0px 0px 0px;
@@ -210,6 +212,8 @@ div.container-fluid {
                 font-size: $normal-font-size;
             }
         }
+        padding-bottom:20px;
+
     }
 
     /* -- */
@@ -229,16 +233,25 @@ div.container-fluid {
     section.rose {
         margin: 20px -20px 0 -20px;
         div.rose-left {
+            background: url(../../../assets/images/rose.jpg) #FFF bottom left no-repeat;
+            min-height: 600px;
             h3 {}
             h2 {}
-            p {}
+            p {
+                font-size: $normal-font-size
+            }
         }
         div.rose-right {
             background: url(../../../assets/images/repeating-pattern-blue3.jpg) #114C73 center repeat;
             color: #FFF;
-            h3 {}
-            h2 {}
-            p {}
+            padding: 40px;
+            p {
+                font-size: $normal-font-size;
+                font-weight: bold;
+            }
+            ul {
+                font-size: $normal-font-size
+            }
         }
     }
 
@@ -314,4 +327,35 @@ div.container-fluid {
             }
         }
     }
+}
+
+@media screen and (max-width: 420px) {
+  img.svg-logo {
+    width: 100%!important;
+    float: none;
+  }
+  img.svg-logo2{
+    width: 80%!important;
+    float: none;
+  }
+    /* -- */
+    section.subconscious {
+        background-image: none!important;
+        background-color: #FFF!important;
+        div.col-md-9 {
+
+            /* create mixin below */
+            h3 {
+            }
+            h2 {
+            }
+            p {
+        padding-bottom:20px;
+            }
+        }
+    }
+        .row-eq-height {
+        display: block!important;
+    }
+
 }

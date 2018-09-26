@@ -125,19 +125,22 @@ div.container-fluid {
   div.container-fluid section.subconscious {
     margin: -15px;
     background: url(../../../assets/images/bg-girl.jpg) #114C73 center repeat;
-    min-height: 620px; }
-    div.container-fluid section.subconscious div.col-md-9 h3 {
-      color: #F497B0;
-      padding: 30px 0px 0px 0px; }
-    div.container-fluid section.subconscious div.col-md-9 h2 {
-      font-size: 6vh;
-      font-family: serif;
-      color: #ee5792;
-      padding: 0 0 20px 0;
-      margin: 0px; }
-    div.container-fluid section.subconscious div.col-md-9 p {
-      color: #114C73;
-      font-size: 2.1vh; }
+    min-height: 620px;
+    padding-bottom: 20px; }
+    div.container-fluid section.subconscious div.col-md-9 {
+      /* create mixin below */ }
+      div.container-fluid section.subconscious div.col-md-9 h3 {
+        color: #F497B0;
+        padding: 30px 0px 0px 0px; }
+      div.container-fluid section.subconscious div.col-md-9 h2 {
+        font-size: 6vh;
+        font-family: serif;
+        color: #ee5792;
+        padding: 0 0 20px 0;
+        margin: 0px; }
+      div.container-fluid section.subconscious div.col-md-9 p {
+        color: #114C73;
+        font-size: 2.1vh; }
   div.container-fluid .divider-wrapper {
     margin: -20px; }
     div.container-fluid .divider-wrapper div.row div.divider-graphic {
@@ -147,12 +150,41 @@ div.container-fluid {
         text-align: center; }
   div.container-fluid section.rose {
     margin: 20px -20px 0 -20px; }
+    div.container-fluid section.rose div.rose-left {
+      background: url(../../../assets/images/rose.jpg) #FFF bottom left no-repeat;
+      min-height: 600px; }
+      div.container-fluid section.rose div.rose-left p {
+        font-size: 2.1vh; }
     div.container-fluid section.rose div.rose-right {
       background: url(../../../assets/images/repeating-pattern-blue3.jpg) #114C73 center repeat;
-      color: #FFF; }
+      color: #FFF;
+      padding: 40px; }
+      div.container-fluid section.rose div.rose-right p {
+        font-size: 2.1vh;
+        font-weight: bold; }
+      div.container-fluid section.rose div.rose-right ul {
+        font-size: 2.1vh; }
   div.container-fluid div.row {
     /* -- */
     /* -- */
     /* -- */ }
     div.container-fluid div.row div.row div.col-md-8 div.row div.row div.col-md-2 {
       font-size: 99em; }
+
+@media screen and (max-width: 420px) {
+  img.svg-logo {
+    width: 100% !important;
+    float: none; }
+  img.svg-logo2 {
+    width: 80% !important;
+    float: none; }
+  /* -- */
+  section.subconscious {
+    background-image: none !important;
+    background-color: #FFF !important; }
+    section.subconscious div.col-md-9 {
+      /* create mixin below */ }
+      section.subconscious div.col-md-9 p {
+        padding-bottom: 20px; }
+  .row-eq-height {
+    display: block !important; } }
